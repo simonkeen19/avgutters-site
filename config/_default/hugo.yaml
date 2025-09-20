@@ -3,8 +3,10 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Hugo Portfolio Theme # Website name
-baseURL: 'https://example.com/' # Website URL
+title: "AV Gutter Repairs and Cleaning"
+baseURL: "https://avgutters.co.uk/"
+theme: "github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5"
+googleAnalytics: ""
 
 ############################
 ## PAGE OPTIONS
@@ -35,7 +37,8 @@ removePathAccents: true
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
